@@ -13,7 +13,7 @@ namespace CollectionViewNullBindingContext
         public object? Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
         {
             count++;
-            return $"{value} binding count={count}";
+            return $"{value} conv call count={count}";
         }
 
         public object? ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
